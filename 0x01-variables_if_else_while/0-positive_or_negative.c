@@ -1,15 +1,13 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main() {
-    double num;
-    printf("Enter a number: ");
-    scanf("%lf", &num);
-    if (num <= 0.0) {
-        if (num == 0.0)
-            printf("You entered 0.");
-        else
-            printf("You entered a negative number.");
-    } 
-    else
-        printf("You entered a positive number.");
-    return 0;
-} 
+   int n=0;
+   if(n>0) {
+      printf("%d is positive",n);
+   } else if(n<0) {
+      printf("%d is negative",n);
+   } else {
+      printf("%d is zero",n);
+   }
+   return 0;
+}
