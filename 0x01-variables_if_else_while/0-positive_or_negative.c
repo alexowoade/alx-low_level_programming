@@ -4,25 +4,25 @@
 int main() 
 { 
 
-    int A; 
+    int n; 
  
 
-    printf("Enter the number A: "); 
+    printf("Enter the number n: "); 
 
     scanf("%d", &A); 
  
 
-    if (A > 0) 
+    if (n > 0) 
 
-        printf("%d is positive.", A); 
+        printf("%d is positive.", n); 
 
-    else if (A < 0) 
+    else if (n < 0) 
 
-        printf("%d is negative.", A); 
+        printf("%d is negative.", n); 
 
-    else if (A == 0) 
+    else if (n == 0) 
 
-        printf("%d is zero.", A); 
+        printf("%d is zero.", n); 
  
 
     return 0; 
