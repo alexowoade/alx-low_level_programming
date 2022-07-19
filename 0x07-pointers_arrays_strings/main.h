@@ -1,6 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stddef.h>
+#include <unistd.h>
 
 int _putchar(char c);
 void *_memset(void *s, int c, size_t n);
@@ -13,4 +11,3 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 
-#endif
